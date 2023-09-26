@@ -69,7 +69,7 @@ if(isset($_POST['add_to_cart'])){
         	<div class="home-slideshow">
             	<div class="slide">
                 	<div class="blur-up lazyload bg-size">
-                        <img class="blur-up lazyload bg-img" data-src="assets/images/slideshow-banners/accueil.jpg" src="assets/images/slideshow-banners/accueil.jpg" alt="Shop Our New Collection" title="Shop Our New Collection" />
+                        <img class="blur-up lazyload bg-img" data-src="assets/images/slideshow-banners/accueil.jpg" src="assets/images/    accueil.jpg" alt="Shop Our New Collection" title="Shop Our New Collection" />
                         <div class="slideshow__text-wrap slideshow__overlay classic bottom">
                             <!--<div class="slideshow__text-content bottom">
                                 <div class="wrap-caption center">
@@ -105,7 +105,7 @@ if(isset($_POST['add_to_cart'])){
                 	<div class="col-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="section-header text-center">
                             <h2 class="h2">NOS PRODUITS</h2>
-                            <p>Consultez la grande variété de nos produits</p>
+                            <p>Nos produits les plus populaires en fonction des ventes</p>
                         </div>
                         <div class="tabs-listing">
                             <ul class="tabs clearfix">
@@ -547,21 +547,21 @@ if(isset($_POST['add_to_cart'])){
         </div>	
         <!--End Featured Product-->
         
-        <!--Latest Blog
+        
         <div class="latest-blog section pt-0">
         	<div class="container">
             	<div class="row">
                 	<div class="col-12 col-sm-12 col-md-12 col-lg-12">
         				<div class="section-header text-center">
-      						<h2 class="h2">Latest From our Blog</h2>
+      						<h2 class="h2">TEMOIGNAGES</h2>
 					    </div>
             		</div>
                 </div>
             	<div class="row">
-                	<div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                	<div class="col-6 col-sm-6 col-md-4 col-lg-4">
                     	<div class="wrap-blog">
                         	<a href="blog-left-sidebar.html" class="article__grid-image">
-              					<img src="assets/images/blog/post-img1.jpg" alt="It's all about how you wear" title="It's all about how you wear" class="blur-up lazyloaded"/>
+              					<img src="assets/images/images/1.jpg" alt="It's all about how you wear" title="It's all about how you wear" class="blur-up lazyloaded"/>
 				            </a>
                             <div class="article__grid-meta article__grid-meta--has-image">
                                 <div class="wrap-blog-inner">
@@ -573,16 +573,16 @@ if(isset($_POST['add_to_cart'])){
                                         I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account...
                                     </div>
                                     <ul class="list--inline article__meta-buttons">
-                                    	<li><a href="blog-article.html">Read more</a></li>
+                                    	
                                     </ul>
                                 </div>
 							</div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-12 col-md-6 col-lg-6">
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-4">
                     	<div class="wrap-blog">
                         	<a href="blog-left-sidebar.html" class="article__grid-image">
-              					<img src="assets/images/blog/post-img2.jpg" alt="27 Days of Spring Fashion Recap" title="27 Days of Spring Fashion Recap" class="blur-up lazyloaded"/>
+              					<img src="assets/images/images/1.jpg" alt="27 Days of Spring Fashion Recap" title="27 Days of Spring Fashion Recap" class="blur-up lazyloaded"/>
 				            </a>
                             <div class="article__grid-meta article__grid-meta--has-image">
                                 <div class="wrap-blog-inner">
@@ -594,7 +594,28 @@ if(isset($_POST['add_to_cart'])){
                                         Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab...
                                     </div>
                                     <ul class="list--inline article__meta-buttons">
-                                    	<li><a href="blog-article.html">Read more</a></li>
+                                    	
+                                    </ul>
+                                </div>
+							</div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-sm-6 col-md-4 col-lg-4">
+                    	<div class="wrap-blog">
+                        	<a href="blog-left-sidebar.html" class="article__grid-image">
+              					<img src="assets/images/images/1.jpg" alt="27 Days of Spring Fashion Recap" title="27 Days of Spring Fashion Recap" class="blur-up lazyloaded"/>
+				            </a>
+                            <div class="article__grid-meta article__grid-meta--has-image">
+                                <div class="wrap-blog-inner">
+                                    <h2 class="h3 article__title">
+                                      <a href="blog-right-sidebar.html">27 Days of Spring Fashion Recap</a>
+                                    </h2>
+                                    <span class="article__date">May 02, 2017</span>
+                                    <div class="rte article__grid-excerpt">
+                                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab...
+                                    </div>
+                                    <ul class="list--inline article__meta-buttons">
+                                    	
                                     </ul>
                                 </div>
 							</div>
@@ -603,7 +624,7 @@ if(isset($_POST['add_to_cart'])){
                 </div>
             </div>
         </div>
-        End Latest Blog-->
+        
         
         <!--Store Feature-->
         <div class="store-feature section">

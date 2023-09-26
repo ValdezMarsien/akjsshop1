@@ -121,9 +121,9 @@
                         <?php } ?>
                           </ul>
                         </li>
-                         <li class="lvl1 parent dropdown"><a href="#">A propos<i class="anm anm-angle-down-l"></i></a></li>
-                          <li class="lvl1 parent dropdown"><a href="#">Actualite<i class="anm anm-angle-down-l"></i></a></li>
-                           <li class="lvl1 parent dropdown"><a href="#">Contact<i class="anm anm-angle-down-l"></i></a></li>
+                         <li class="lvl1 parent dropdown"><a href="404.php">A propos<i class="anm anm-angle-down-l"></i></a></li>
+                          <li class="lvl1 parent dropdown"><a href="404.php">Actualite<i class="anm anm-angle-down-l"></i></a></li>
+                           <li class="lvl1 parent dropdown"><a href="contact-us.php">Contact<i class="anm anm-angle-down-l"></i></a></li>
                         
                       </ul>
                     </nav>
