@@ -14,7 +14,7 @@
     $result = mysqli_query($conn, $sql);
 
     if($result){
-      header("Location: index.php?msg=Message recu ");
+      header("Location: contact-us.php?msg=Message Envoye ");
     }
     else {
       echo "Echoue " . mysqli_error($conn);
@@ -33,7 +33,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta http-equiv="x-ua-compatible" content="ie=edge">
-<title>Contact Us &ndash; Belle Multipurpose Bootstrap 4 Template</title>
+<title>Contact Us &ndash; Akj's Shop</title>
 <meta name="description" content="description">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <!-- Favicon -->
@@ -68,8 +68,9 @@
                         <div class="map-section__overlay">
                             <h3 class="h4">Our store</h3>
                             <div class="rte-setting">
-                                <p>123 Fake St.<br>Toronto, Canada</p>
-                                <p>Mon - Fri, 10am - 9pm<br>Saturday, 11am - 9pm<br>Sunday, 11am - 5pm</p>
+                                <p>RCA<br>Bangui</p>
+                                <p>Disponible 24h/24</p>
+                                <p>+236 70 11 00 80</p>
                             </div>
                             <p><a href="https://maps.google.com/?daddr=80%20Spadina%20Ave,%20Toronto" class="btn btn--secondary btn--small" target="_blank">Get directions</a></p>
                         </div>
@@ -79,38 +80,38 @@
         </div>
         <div class="bredcrumbWrap">
             <div class="container breadcrumbs">
-                <a href="index.html" title="Back to the home page">Home</a><span aria-hidden="true">›</span><span>Contact Us</span>
+                <a href="index.php" title="Back to the home page">Home</a><span aria-hidden="true">›</span><span>Contact Us</span>
             </div>
         </div>
         
         <div class="container">
             <div class="row">
             	<div class="col-12 col-sm-12 col-md-8 col-lg-8 mb-4">
-                	<h2>Drop Us A Line</h2>
+                	<h2>Nous contacter</h2>
                     <p>  </p>
                 	<div class="formFeilds contact-form form-vertical">
-                      <form action="http://annimexweb.com/items/belle/assets/php/mail.php" method="post"  id="contact_form" class="contact-form">	
+                      <form action="" method="post" class="contact-form">	
                       <div class="row">
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         	<div class="form-group">
-                          	<input type="text" id="ContactFormName" name="name" placeholder="Name" value="" required="">
+                          	<input type="text" id="ContactFormName" name="nom" placeholder="Nom" required="">
                             </div>
                         </div>
                         <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                         	<div class="form-group">
-							<input type="email" id="ContactFormEmail" name="email" placeholder="Email" value="" required="">                        	
+							<input type="email" id="ContactFormEmail" name="email" placeholder="Adresse Email" required="">                        	
                             </div>
                         </div>
                       </div>
                       <div class="row">
                           <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                           	<div class="form-group">
-                            <input required="" type="tel" id="ContactFormPhone" name="phone" pattern="[0-9\-]*" placeholder="Phone Number" value="">
+                            <input required="" type="tel" id="ContactFormPhone" name="telephone" pattern="[0-9\-]*" placeholder="Numero de telephone">
                             </div>
                           </div>
                           <div class="col-12 col-sm-12 col-md-6 col-lg-6">
                           	<div class="form-group">
-                            <input required="" type="text" id="ContactSubject" name="subject" placeholder="Subject" value="">
+                            <input required="" type="text" id="ContactSubject" name="sujet" placeholder="Sujet">
                             </div>
                           </div>
                       </div>
@@ -123,7 +124,7 @@
                       </div>
                       <div class="row">
                         <div class="col-12 col-sm-12 col-md-12 col-lg-12">
-                            <input type="submit" class="btn" value="Send Message">
+                            <button type="submit" name="submit" class="btn"> Envoyer </button>
                         </div>
                      </div>
                      </form>

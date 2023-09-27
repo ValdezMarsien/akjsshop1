@@ -154,7 +154,7 @@ if(isset($_POST['add_to_cart'])){
                                                         <i class="icon anm anm-search-plus-r"></i>
                                                     </a>
                                                     <div class="wishlist-btn">
-                                                        <a class="wishlist add-to-wishlist" href="wishlist.html">
+                                                        <a class="wishlist add-to-wishlist" href="#">
                                                             <i class="icon anm anm-heart-l"></i>
                                                         </a>
                                                     </div>
@@ -378,9 +378,18 @@ if(isset($_POST['add_to_cart'])){
             </div>
         </div>
         <!--Collection Tab slider-->
+
         
         <!--Collection Box slider-->
         <div class="collection-box section">
+        <div class="row">
+                	<div class="col-12 col-sm-12 col-md-12 col-lg-12">
+        				<div class="section-header text-center">
+                            <h2 class="h2">Collection à l'affiche</h2>
+                            <p>Nos produits les plus populaires en fonction des ventes</p>
+                        </div>
+            		</div>
+                </div>
         	<div class="container-fluid">
 				<div class="collection-grid">
                     
@@ -454,98 +463,6 @@ if(isset($_POST['add_to_cart'])){
         <!--End Collection Box slider-->
         
 
-        
-        <!--Featured Product-->
-        <div class="product-rows section">
-        	<div class="container">
-            	<div class="row">
-                	<div class="col-12 col-sm-12 col-md-12 col-lg-12">
-        				<div class="section-header text-center">
-                            <h2 class="h2">Collection à l'affiche</h2>
-                            <p>Nos produits les plus populaires en fonction des ventes</p>
-                        </div>
-            		</div>
-                </div>
-                <div class="grid-products">
-	                <div class="row">
-                     <?php			
-									$select_products = mysqli_query($conn, "SELECT * FROM `articles` ORDER BY RAND() LIMIT 8");
-									if(mysqli_num_rows($select_products) > 0){
-									while($fetch_product = mysqli_fetch_assoc($select_products)){
-								?>
-                        <div class="col-6 col-sm-6 col-md-4 col-lg-4 item grid-view-item style2">
-                        	<div class="grid-view_image">
-                                <!-- start product image -->
-                                <a href="produit.php?id_art=<?php echo $fetch_product['id_art']?>" class="grid-view-item__link">
-                                    <!-- image -->
-                                    <img class="grid-view-item__image primary blur-up lazyload" data-src="<?php echo "dashboard/upload/".$fetch_product['image_art']; ?>" src="<?php echo "dashboard/upload/".$fetch_product['image_art']; ?>" alt="image" title="product" style="widht:300px; height:405px;">
-                                    <!-- End image -->
-                                    <!-- Hover image -->
-                                    <img class="grid-view-item__image hover blur-up lazyload" data-src="<?php echo "dashboard/upload/".$fetch_product['image_art']; ?>" src="<?php echo "dashboard/upload/".$fetch_product['image_art']; ?>" alt="image" title="product" style="widht:300px; height:405px;">
-                                    <!--End hover image -->
-                                    <!-- product label 
-                                    <div class="product-labels rectangular"><span class="lbl on-sale">-16%</span> <span class="lbl pr-label1">new</span></div>
-                                     End product label -->
-                                </a>
-                                <!-- end product image -->
-                                <!--start product details -->
-                                <div class="product-details hoverDetails text-center mobile">
-                                    <!-- product name -->
-                                    <div class="product-name">
-                                        <a href="produit.php?id_art=<?php echo $fetch_product['id_art']?>"><?php echo $fetch_product['nom_art'] ?></a>
-                                    </div>
-                                    <!-- End product name -->
-                                    <!-- product price -->
-                                    <div class="product-price">
-                                        <!--<span class="old-price">$500.00</span>-->
-                                        <span class="price"><?php echo $fetch_product['prix_art'] ?> FCFA</span>
-                                    </div>
-                                    <!-- End product price -->
-                                    
-                                    <!-- product button -->
-                                    <div class="button-set">
-                                        <!--<a href="javascript:void(0)" title="Quick View" class="quick-view-popup quick-view" data-toggle="modal" data-target="#content_quickview">
-                                            <i class="icon anm anm-search-plus-r"></i>
-                                        </a>-->
-                                        <!-- Start product button -->
-                                        <form class="variants add" action="" method="post">
-                                                <input type="hidden" name="product_name" value="<?php echo $fetch_product['nom_art']; ?>">
-												<input type="hidden" name="product_price" value="<?php echo $fetch_product['prix_art']; ?>">
-												<input type="hidden" name="product_image" value="<?php echo $fetch_product['image_art']; ?>">
-                                                <button class="btn cartIcon btn-addto-cart" type="submit" name="add_to_cart" tabindex="0"><i class="icon anm anm-bag-l" title="Ajouter au panier"></i></button>
-                                        </form>
-                                        <!--<div class="wishlist-btn">
-                                            <a class="wishlist add-to-wishlist" href="wishlist.html">
-                                                <i class="icon anm anm-heart-l"></i>
-                                            </a>
-                                        </div>
-                                        <div class="compare-btn">
-                                            <a class="compare add-to-compare" href="compare.html" title="Add to Compare">
-                                                <i class="icon anm anm-random-r"></i>
-                                            </a>
-                                        </div>-->
-                                    </div>
-                                    <!-- end product button -->
-                                </div>
-                                <!-- Variant 
-                                <ul class="swatches text-center">
-                                    <li class="swatch medium rounded"><img src="assets/images/product-images/variant1.jpg" alt="image" /></li>
-                                    <li class="swatch medium rounded"><img src="assets/images/product-images/variant2.jpg" alt="image" /></li>
-                                    <li class="swatch medium rounded"><img src="assets/images/product-images/variant3.jpg" alt="image" /></li>
-                                    <li class="swatch medium rounded"><img src="assets/images/product-images/variant4.jpg" alt="image" /></li>
-                                    <li class="swatch medium rounded"><img src="assets/images/product-images/variant5.jpg" alt="image" /></li>
-                                    <li class="swatch medium rounded"><img src="assets/images/product-images/variant6.jpg" alt="image" /></li>
-                                </ul>
-                                End Variant -->
-                                <!-- End product details -->
-                            </div>
-                        </div>
-                        <?php }}?>
-                	</div>
-                </div>
-           </div>
-        </div>	
-        <!--End Featured Product-->
         
         
         <div class="latest-blog section pt-0">

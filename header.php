@@ -97,8 +97,8 @@
                         <?php } ?>
                           </ul>
                         </li>
-                         <li class="lvl1 parent dropdown"><a href="#">A propos<i class="anm anm-angle-down-l"></i></a></li>
-                          <li class="lvl1 parent dropdown"><a href="#">Actualite<i class="anm anm-angle-down-l"></i></a></li>
+                         <li class="lvl1 parent dropdown"><a href="404.php">A propos<i class="anm anm-angle-down-l"></i></a></li>
+                          <li class="lvl1 parent dropdown"><a href="404.php">Actualite<i class="anm anm-angle-down-l"></i></a></li>
                            <li class="lvl1 parent dropdown"><a href="contact-us.php">Contact<i class="anm anm-angle-down-l"></i></a></li>
                         
                       </ul>
@@ -198,29 +198,40 @@
         <ul id="MobileNav" class="mobile-nav">
         <li class="lvl1 parent dropdown"><a href="#">Produits de beauté<i class="anm anm-angle-down-l"></i></a>
                           <ul class="dropdown">
-                            <li><a href="maquillage.php" class="site-nav">Maquillage</a></li>
-                            <li><a href="onglerie.php" class="site-nav">Onglerie</a></li>
-                            <li><a href="esthetique.php" class="site-nav">Esthetique</a></li>
+                          <?php
+                                $sql="SELECT * FROM `countries`where continent_id= '1' ";
+                                $result = mysqli_query($conn, $sql);
+                                while ($row = mysqli_fetch_assoc($result)) {
+                            ?> 
+                            <li><a href="categories.php?id_c=<?php echo $row['id_c']?>" class="site-nav"><?php echo $row['country'] ?></a></li>
+                        <?php } ?>
                           </ul>
                         </li>
                         <li class="lvl1 parent dropdown"><a href="#">Produits de soin<i class="anm anm-angle-down-l"></i></a>
                           <ul class="dropdown">
-                            <li><a href="blog-left-sidebar.html" class="site-nav">Visage</a></li>
-                            <li><a href="blog-right-sidebar.html" class="site-nav">Corps</a></li>
-                            <li><a href="blog-fullwidth.html" class="site-nav">Parfum</a></li>
-                            <li><a href="blog-grid-view.html" class="site-nav">Cheveux</a></li>
+                          <?php
+                                $sql="SELECT * FROM `countries`where continent_id= '2' ";
+                                $result = mysqli_query($conn, $sql);
+                                while ($row = mysqli_fetch_assoc($result)) {
+                            ?> 
+                            <li><a href="categories.php?id_c=<?php echo $row['id_c']?>" class="site-nav"><?php echo $row['country'] ?></a></li>
+                        <?php } ?>
                           </ul>
                         </li>
                         <li class="lvl1 parent dropdown"><a href="#">Pagne<i class="anm anm-angle-down-l"></i></a>
                           <ul class="dropdown">
-                            <li><a href="blog-article.html" class="site-nav">Vêtement</a></li>
-                            <li><a href="blog-left-sidebar.html" class="site-nav">Sacs</a></li>
-                            <li><a href="blog-right-sidebar.html" class="site-nav">Pochettes</a></li>
-                            <li><a href="blog-fullwidth.html" class="site-nav">Evantails</a></li>
-                            <li><a href="blog-grid-view.html" class="site-nav">Accessoires</a></li>
-                            <li><a href="blog-article.html" class="site-nav">Chaussures</a></li>
+                          <?php
+                                $sql="SELECT * FROM `countries`where continent_id= '3' ";
+                                $result = mysqli_query($conn, $sql);
+                                while ($row = mysqli_fetch_assoc($result)) {
+                            ?> 
+                            <li><a href="categories.php?id_c=<?php echo $row['id_c']?>" class="site-nav"><?php echo $row['country'] ?></a></li>
+                        <?php } ?>
                           </ul>
                         </li>
+                        <li class="lvl1 parent dropdown"><a href="404.php">A propos<i class="anm anm-angle-down-l"></i></a></li>
+                          <li class="lvl1 parent dropdown"><a href="404.php">Actualite<i class="anm anm-angle-down-l"></i></a></li>
+                           <li class="lvl1 parent dropdown"><a href="contact-us.php">Contact<i class="anm anm-angle-down-l"></i></a></li>
       </ul>
 	</div>
 	<!--End Mobile Menu-->
