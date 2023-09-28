@@ -147,7 +147,7 @@ if(isset($_POST['add_to_cart'])){
                 	<div class="col-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="section-header text-center">
                             <h2 class="h2">NOS PRODUITS</h2>
-                            <p>Nos produits les plus populaires en fonction des ventes</p>
+                            <p>Nos produits les plus populaires en fonction des vente</p>
                         </div>
                         <div class="tabs-listing">
                             <ul class="tabs clearfix">
@@ -428,7 +428,7 @@ if(isset($_POST['add_to_cart'])){
                 	<div class="col-12 col-sm-12 col-md-12 col-lg-12">
         				<div class="section-header text-center">
                             <h2 class="h2">Collection à l'affiche</h2>
-                            <p>Nos produits les plus populaires en fonction des ventes</p>
+                            <p>Consultez la grande variété de nos collections</p>
                         </div>
             		</div>
                 </div>
