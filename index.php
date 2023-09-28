@@ -69,7 +69,7 @@ if(isset($_POST['add_to_cart'])){
         	<div class="home-slideshow">
             	<div class="slide">
                 	<div class="blur-up lazyload bg-size">
-                        <img class="blur-up lazyload bg-img" data-src="assets/images/slideshow-banners/accueil.jpg" src="assets/images/    accueil.jpg" alt="Shop Our New Collection" title="Shop Our New Collection" />
+                        <img class="blur-up lazyload bg-img" data-src="assets/images/accueil/accueil.jpg" src="assets/images/accueil/accueil.jpg" alt="Shop Our New Collection" title="Shop Our New Collection" />
                         <div class="slideshow__text-wrap slideshow__overlay classic bottom">
                             <!--<div class="slideshow__text-content bottom">
                                 <div class="wrap-caption center">
@@ -83,7 +83,49 @@ if(isset($_POST['add_to_cart'])){
                 </div>
                 <div class="slide">
                 	<div class="blur-up lazyload bg-size">
-                        <img class="blur-up lazyload bg-img" data-src="assets/images/slideshow-banners/accueil.jpg" src="assets/images/slideshow-banners/accueil.jpg" alt="Summer Bikini Collection" title="Summer Bikini Collection" />
+                        <img class="blur-up lazyload bg-img" data-src="assets/images/accueil/accueil2.jpg" src="assets/images/accueil/accueil2.jpg" alt="Summer Bikini Collection" title="Summer Bikini Collection" />
+                        <div class="slideshow__text-wrap slideshow__overlay classic bottom">
+                            <div class="slideshow__text-content bottom">
+                                <!--<div class="wrap-caption center">
+                                    <h2 class="h1 mega-title slideshow__title">Summer Bikini Collection</h2>
+                                    <span class="mega-subtitle slideshow__subtitle">Save up to 50% off this weekend only</span>
+                                    <span class="btn">Shop now</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                	<div class="blur-up lazyload bg-size">
+                        <img class="blur-up lazyload bg-img" data-src="assets/images/accueil/accueil3.jpg" src="assets/images/accueil/accueil3.jpg" alt="Summer Bikini Collection" title="Summer Bikini Collection" />
+                        <div class="slideshow__text-wrap slideshow__overlay classic bottom">
+                            <div class="slideshow__text-content bottom">
+                                <!--<div class="wrap-caption center">
+                                    <h2 class="h1 mega-title slideshow__title">Summer Bikini Collection</h2>
+                                    <span class="mega-subtitle slideshow__subtitle">Save up to 50% off this weekend only</span>
+                                    <span class="btn">Shop now</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                	<div class="blur-up lazyload bg-size">
+                        <img class="blur-up lazyload bg-img" data-src="assets/images/accueil/accueil4.jpg" src="assets/images/accueil/accueil4.jpg" alt="Summer Bikini Collection" title="Summer Bikini Collection" />
+                        <div class="slideshow__text-wrap slideshow__overlay classic bottom">
+                            <div class="slideshow__text-content bottom">
+                                <!--<div class="wrap-caption center">
+                                    <h2 class="h1 mega-title slideshow__title">Summer Bikini Collection</h2>
+                                    <span class="mega-subtitle slideshow__subtitle">Save up to 50% off this weekend only</span>
+                                    <span class="btn">Shop now</span>
+                                </div>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                	<div class="blur-up lazyload bg-size">
+                        <img class="blur-up lazyload bg-img" data-src="assets/images/accueil/accueil5.jpg" src="assets/images/accueil/accueil5.jpg" alt="Summer Bikini Collection" title="Summer Bikini Collection" />
                         <div class="slideshow__text-wrap slideshow__overlay classic bottom">
                             <div class="slideshow__text-content bottom">
                                 <!--<div class="wrap-caption center">
@@ -435,7 +477,7 @@ if(isset($_POST['add_to_cart'])){
                         </div>
                         <div class="collection-grid-item">
                             <a href="" class="collection-grid-item__link">
-                                <img data-src="assets\images\corps\1.jpg" src="assets/images/collection/jewellry.jpg" alt="Jewellry" class="blur-up lazyload" style="width:530px; height:300px;"/>
+                                <img data-src="assets\images\corps\2.jpg" src="assets/images/corps/1.jpg" alt="Jewellry" class="blur-up lazyload" style="width:530px; height:300px;"/>
                                 <div class="collection-grid-item__title-wrapper">
                                     <h3 class="collection-grid-item__title btn btn--secondary no-border">Corps</h3>
                                 </div>
@@ -451,7 +493,7 @@ if(isset($_POST['add_to_cart'])){
                         </div>
                         <div class="collection-grid-item blur-up lazyloaded">
                             <a href="" class="collection-grid-item__link">
-                                <img data-src="assets\images\pagnes\2.jpg" src="assets/images/collection/bag.jpg" alt="Bag" class="blur-up lazyload" style="width:530px; height:300px;"/>
+                            <img data-src="assets\images\sacs\1.jpg" src="assets/images/sacs/1.jpg" alt="Bag" class="blur-up lazyload" style="width:530px; height:300px;"/>
                                 <div class="collection-grid-item__title-wrapper">
                                     <h3 class="collection-grid-item__title btn btn--secondary no-border">Sacs en pagne</h3>
                                 </div>
@@ -465,7 +507,7 @@ if(isset($_POST['add_to_cart'])){
 
         
         
-        <div class="latest-blog section pt-0">
+        <!--<div class="latest-blog section pt-0">
         	<div class="container">
             	<div class="row">
                 	<div class="col-12 col-sm-12 col-md-12 col-lg-12">
@@ -540,7 +582,7 @@ if(isset($_POST['add_to_cart'])){
                     </div>
                 </div>
             </div>
-        </div>
+        </div>-->
         
         
         <!--Store Feature-->
