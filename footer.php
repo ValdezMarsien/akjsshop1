@@ -80,9 +80,9 @@
                         <div class="col-12 col-sm-12 col-md-3 col-lg-3 contact-box">
                         	<h4 class="h4">Contact Us</h4>
                             <ul class="addressFooter">
-                            	<li><i class="icon anm anm-map-marker-al"></i><p> <br> </p></li>
+                            	<li><i class="icon anm anm-map-marker-al"></i><p> République Centrafricaine - <br>Bangui </p></li>
                                 <li class="phone"><i class="icon anm anm-phone-s"></i><p>+236 70 11 00 80</p></li>
-                                <li class="email"><i class="icon anm anm-envelope-l"></i><p></p></li>
+                                <li class="email"><i class="icon anm anm-envelope-l"></i><p>infos@akjsshop.cm</p></li>
                             </ul>
                         </div>
                     </div>

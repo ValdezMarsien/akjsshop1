@@ -447,7 +447,7 @@ if(isset($_POST['add_to_cart'])){
                             <a href="" class="collection-grid-item__link">
                                 <img data-src="assets\images\Esthetique\1.jpg" src="assets/images/Esthetique/1.jpg" alt="Jewellry" class="blur-up lazyload" style="width:530px; height:300px;"/>
                                 <div class="collection-grid-item__title-wrapper">
-                                    <h3 class="collection-grid-item__title btn btn--secondary no-border">Esthetique</h3>
+                                    <h3 class="collection-grid-item__title btn btn--secondary no-border">Cosmétique</h3>
                                 </div>
                             </a>
                         </div>
