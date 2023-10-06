@@ -5,7 +5,7 @@ $id_c = $_GET['id_c'];
 
 
 if(isset($_POST['add_to_cart'])){
-
+    
     $product_name = $_POST['product_name'];
     $product_price = $_POST['product_price'];
     $product_image = $_POST['product_image'];
@@ -75,7 +75,16 @@ if(isset($_POST['add_to_cart'])){
     	<!--Collection Banner-->
     	<div class="collection-header">
 			<div class="collection-hero">
-        		<div class="collection-hero__image"><img class="blur-up lazyload" data-src="assets/images/cat-women1.jpg" src="assets/images/cat-women1.jpg" alt="Women" title="Women" /></div>
+        		<div class="collection-hero__image">
+                <?php			
+                        $select_products = mysqli_query($conn, "SELECT couverture FROM `countries` WHERE id_c = $id_c");
+                        if(mysqli_num_rows($select_products) > 0){
+                        while($fetch_product = mysqli_fetch_assoc($select_products)){ ?>
+                
+                            <img class="blur-up lazyload" data-src="<?php echo "assets/images/Couvertures/".$fetch_product['couverture']; ?>" src="<?php echo "assets/images/Couvertures/".$fetch_product['couverture']; ?>" alt="Women" title="AKJ'S SHOP" />
+                     <?php }} ?>
+                   
+                </div>
         		<div class="collection-hero__title-wrapper">
                 <h1 class="collection-hero__title page-width">
                 <?php			

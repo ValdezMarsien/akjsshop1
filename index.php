@@ -485,7 +485,7 @@ if(isset($_POST['add_to_cart'])){
                         </div>
                         <div class="collection-grid-item">
                             <a href="" class="collection-grid-item__link">
-                                <img data-src="assets\images\pagnes\1.jpg" src="assets/images/collection/accessories.jpg" alt="Accessories" class="blur-up lazyload" style="width:530px; height:300px;"/>
+                                <img data-src="assets\images\pagnes\3.jpg" src="assets/images/collection/accessories.jpg" alt="Accessories" class="blur-up lazyload" style="width:530px; height:300px;"/>
                                 <div class="collection-grid-item__title-wrapper">
                                     <h3 class="collection-grid-item__title btn btn--secondary no-border">Accessories en pagne</h3>
                                 </div>
