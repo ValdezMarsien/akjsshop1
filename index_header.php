@@ -19,7 +19,7 @@
                     <?php } else {  ?>
                       
                       <div class="language-dropdown">
-                      <span class="language-dd">Bienvenu(e), <?=$_SESSION['email']; ?></span>
+                      <span class="language-dd"><?=$_SESSION['email']; ?></span>
                         <ul id="language">
                             <a href=""><li class="">Modifier votre compte</li></a> 
                             <a href="logout.php"><li class="">Se deconnecter</li></a> 
@@ -140,7 +140,7 @@
                 <!--Mobile Logo-->
                 <div class="col-4 col-sm-3 col-md-3 col-lg-2">
                 	<div class="site-cart">
-                    	<a href="cart-variant.php" class="site-header__cart" title="Cart">
+                    	<a href="cart-variant.php" class="" title="Cart">
                                <?php                                  
                                     $select_rows = mysqli_query($conn, "SELECT * FROM `cart`") or die('query failed');
                                     $row_count = mysqli_num_rows($select_rows);

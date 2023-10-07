@@ -48,8 +48,8 @@ if(empty($session['email']))
 <!-- Bootstap CSS -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <!-- Main Style CSS -->
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="assets/css/style1.css">
+<link rel="stylesheet" href="assets/css/responsive1.css">
 </head>
 <body class="page-template belle cart-variant1">
 <div class="pageWrapper">
@@ -69,9 +69,9 @@ if(empty($session['email']))
         <div class="container">
         	<div class="row">
                 <div class="col-12 col-sm-12 col-md-12 col-lg-12 main-col">
-                	<div class="alert alert-success text-uppercase" role="alert">
+                	<!--<div class="alert alert-success text-uppercase" role="alert">
 						<i class="icon anm anm-truck-l icon-large"></i> &nbsp;<strong>Congratulations!</strong> You've got free shipping!
-					</div>
+					</div>-->
                 	<form action="#" method="post" class="cart style2">
                 		<table>
                             <thead class="cart__row cart__header">

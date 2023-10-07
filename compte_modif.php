@@ -20,8 +20,8 @@ include 'bd.php';
 <!-- Bootstap CSS -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <!-- Main Style CSS -->
-<link rel="stylesheet" href="assets/css/style1.css">
-<link rel="stylesheet" href="assets/css/responsive1.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
 </head>
 <body class="page-template belle">
 <div class="pageWrapper">

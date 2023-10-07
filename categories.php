@@ -52,8 +52,8 @@ if(isset($_POST['add_to_cart'])){
 <!-- Bootstap CSS -->
 <link rel="stylesheet" href="assets/css/bootstrap.min.css">
 <!-- Main Style CSS -->
-<link rel="stylesheet" href="assets/css/style.css">
-<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="stylesheet" href="assets/css/style1.css">
+<link rel="stylesheet" href="assets/css/responsive1.css">
 </head>
 <body class="template-collection belle">
 <div class="pageWrapper">
@@ -81,7 +81,7 @@ if(isset($_POST['add_to_cart'])){
                         if(mysqli_num_rows($select_products) > 0){
                         while($fetch_product = mysqli_fetch_assoc($select_products)){ ?>
                 
-                            <img class="blur-up lazyload" data-src="<?php echo "assets/images/Couvertures/".$fetch_product['couverture']; ?>" src="<?php echo "assets/images/Couvertures/".$fetch_product['couverture']; ?>" alt="Women" title="AKJ'S SHOP" />
+                            <img class="blur-up lazyload" data-src="<?php echo "assets/images/Couvertures/".$fetch_product['couverture']; ?>" src="<?php echo "assets/images/Couvertures/".$fetch_product['couverture']; ?>" alt="AKJ'S SHOP" title="AKJ'S SHOP" />
                      <?php }} ?>
                    
                 </div>
