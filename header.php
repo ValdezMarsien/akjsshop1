@@ -15,7 +15,7 @@
             <div class="row">
             	<div class="col-10 col-sm-8 col-md-5 col-lg-4">
 
-                    <p class="phone-no"><i class="anm anm-phone-s"></i> +236 70 11 00 80</p>
+                    <p class="phone-no"><i class="anm anm-phone-s"></i> +236 75 75 92 69</p>
                 </div>
                 <div class="col-sm-4 col-md-4 col-lg-4 d-none d-lg-none d-md-block d-lg-block">
                 	<div class="text-center"><p class="top-header_middle-text"> </p></div>
